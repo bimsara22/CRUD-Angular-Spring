@@ -1,0 +1,28 @@
+
+<h1 style="margin-left: 500px;">Database Details</h1>
+
+<div class="container">
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>FirstName</th>
+                <th>Password</th>
+                
+            </tr>
+        </thead>
+      
+        <tbody>
+            <tr *ngFor="let student of students">
+            <td>{{student.id}}</td>
+            <td>{{student.name}}</td>
+            <td>{{student.password}}</td>
+        
+            </tr>
+        </tbody> 
+      </table>
+      
+</div>
+
+  
